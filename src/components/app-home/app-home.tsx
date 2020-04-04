@@ -20,10 +20,33 @@ export class AppHome {
             github issue
           </a>
         </p>
+        <p>
+          When using <code>@ionic/core@^5.0.6</code> and{' '}
+          <code>@stencil/core@~1.8.8</code>, <br />
+          the ion-label doesn't respect the position="stacked" attribute.
+        </p>
+        <p>
+          Also, the items in the pop up of ion-select cannot be selected (not
+          clickable).
+        </p>
 
-        <ion-button href="/profile/ionic" expand="block">
-          Profile page
-        </ion-button>
+        <ion-list>
+          <ion-item>
+            <ion-label position="stacked"> Label 1</ion-label>
+            <ion-select placeholder="ion-select">
+              <ion-select-option value="1"> option 1</ion-select-option>
+              <ion-select-option value="2"> option 2</ion-select-option>
+            </ion-select>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked"> Label 2</ion-label>
+            <ion-input type="text" placeholder='ion-input type="text"' />
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked"> Label 3</ion-label>
+            <ion-textarea placeholder="ion-textarea" />
+          </ion-item>
+        </ion-list>
       </ion-content>,
     ];
   }

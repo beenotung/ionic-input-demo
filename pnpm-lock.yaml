@@ -1,6 +1,6 @@
 devDependencies:
   '@ionic/core': 5.0.7
-  '@stencil/core': 1.12.1
+  '@stencil/core': 1.8.11
   prettier: 2.0.2
 lockfileVersion: 5.1
 packages:
@@ -11,16 +11,16 @@ packages:
     dev: true
     resolution:
       integrity: sha512-94Ebr4Uw/2aOqweGr4Xmo5csjTQwLcDuHraMC+VuQWNoCztuJI9cX/yhsAS2Yftor+vXC/uGZkubK+P+RFh1jQ==
-  /@stencil/core/1.12.1:
+  /@stencil/core/1.8.11:
     dependencies:
-      typescript: 3.8.3
+      typescript: 3.8.2
     dev: true
     engines:
       node: '>=8.9.0'
       npm: '>=6.0.0'
     hasBin: true
     resolution:
-      integrity: sha512-TRmFF+Axq7vaivO85zBE8dLV2CEbTZPTl8kuypROjlaDfu846uuytjriU1Qba2msCcuRtBZrkf74pMLZOiXa3A==
+      integrity: sha512-CWalrysaD+AFyPSd6ZJzBnGdp6vZIF9MajvnQg+jJd2s67HbO1B9lPDKtX8mPW9HF3/3o0XMVQR1F9uLBqIviA==
   /ionicons/5.0.1:
     dev: true
     resolution:
@@ -36,14 +36,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
-  /typescript/3.8.3:
+  /typescript/3.8.2:
     dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+      integrity: sha512-EgOVgL/4xfVrCMbhYKUQTdF37SQn4Iw73H5BgCrF1Abdun7Kwy/QZsE/ssAy0y4LxBbvua3PIbFsbRczWWnDdQ==
 specifiers:
   '@ionic/core': ^5.0.6
-  '@stencil/core': ^1.11.2
+  '@stencil/core': ~1.8.8
   prettier: ^2.0.2
