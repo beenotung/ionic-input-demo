@@ -1,16 +1,16 @@
 devDependencies:
-  '@ionic/core': 5.0.7
+  '@ionic/core': 5.0.6
   '@stencil/core': 1.8.11
   prettier: 2.0.2
 lockfileVersion: 5.1
 packages:
-  /@ionic/core/5.0.7:
+  /@ionic/core/5.0.6:
     dependencies:
       ionicons: 5.0.1
       tslib: 1.11.1
     dev: true
     resolution:
-      integrity: sha512-94Ebr4Uw/2aOqweGr4Xmo5csjTQwLcDuHraMC+VuQWNoCztuJI9cX/yhsAS2Yftor+vXC/uGZkubK+P+RFh1jQ==
+      integrity: sha512-ia1jcIkTmkzmChVaOwEO0iesBQ+vbmZHbw9nsEVCU3/E9nYziXN4sUq4nlM2z4XWzlGlmS1SHQy1Hz82f6Rtag==
   /@stencil/core/1.8.11:
     dependencies:
       typescript: 3.8.2
@@ -44,6 +44,6 @@ packages:
     resolution:
       integrity: sha512-EgOVgL/4xfVrCMbhYKUQTdF37SQn4Iw73H5BgCrF1Abdun7Kwy/QZsE/ssAy0y4LxBbvua3PIbFsbRczWWnDdQ==
 specifiers:
-  '@ionic/core': ^5.0.6
+  '@ionic/core': 5.0.6
   '@stencil/core': ~1.8.8
   prettier: ^2.0.2

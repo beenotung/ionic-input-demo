@@ -13,11 +13,15 @@
   the ion-label doesn't respect the position="stacked" attribute.
 </p>
 <p>
-  Also, the items in the pop up of ion-select cannot be selected (not clickable).
+  Also, the items in the pop up of ion-se1lect cannot be selected (not clickable).
 </p>
 
 ## Live Demo
-https://ionic-input-demo.surge.sh/
+@ionic/core@5.0.5: https://ionic-input-demo-work.surge.sh
+
+@ionic/core@5.0.6: https://ionic-input-demo-not-work.surge.sh
+
+Both versions are using @stencil/core@1.8.11
 
 ## Ionic PWA Toolkit
 
