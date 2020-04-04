@@ -1,8 +1,8 @@
-import {Component, h} from '@stencil/core';
+import { Component, h } from '@stencil/core';
 
 @Component({
   tag: 'app-home',
-  styleUrl: 'app-home.css'
+  styleUrl: 'app-home.css',
 })
 export class AppHome {
 
@@ -23,7 +23,7 @@ export class AppHome {
         </p>
 
         <ion-button href="/profile/ionic" expand="block">Profile page</ion-button>
-      </ion-content>
+      </ion-content>,
     ];
   }
 }
