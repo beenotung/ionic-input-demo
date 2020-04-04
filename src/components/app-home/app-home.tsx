@@ -5,7 +5,6 @@ import { Component, h } from '@stencil/core';
   styleUrl: 'app-home.css',
 })
 export class AppHome {
-
   render() {
     return [
       <ion-header>
@@ -16,13 +15,15 @@ export class AppHome {
 
       <ion-content class="ion-padding">
         <p>
-          Ionic input components demo
-          for a <a href='https://github.com/ionic-team/ionic/issues/20957'>
-          github issue
-        </a>
+          Ionic input components demo for a{' '}
+          <a href="https://github.com/ionic-team/ionic/issues/20957">
+            github issue
+          </a>
         </p>
 
-        <ion-button href="/profile/ionic" expand="block">Profile page</ion-button>
+        <ion-button href="/profile/ionic" expand="block">
+          Profile page
+        </ion-button>
       </ion-content>,
     ];
   }
