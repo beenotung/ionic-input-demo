@@ -16,9 +16,11 @@
   Also, the items in the pop up of ion-se1lect cannot be selected (not clickable).
 </p>
 
-## Live Demo
+## Demo
+![work](./docs/work.png)
 @ionic/core@5.0.5: https://ionic-input-demo-work.surge.sh
 
+![not work](./docs/not-work.png)
 @ionic/core@5.0.6: https://ionic-input-demo-not-work.surge.sh
 
 Both versions are using @stencil/core@1.8.11
