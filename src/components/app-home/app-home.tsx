@@ -22,8 +22,8 @@ export class AppHome {
         </p>
         <p>
           When using <code>@ionic/core@^5.0.6</code> and{' '}
-          <code>@stencil/core@~1.8.8</code>, <br />
-          the ion-label doesn't respect the position="stacked" attribute.
+          <code>@stencil/core@~1.8.8</code>, the ion-label doesn't respect the
+          position="stacked" attribute.
         </p>
         <p>
           Also, the items in the pop up of ion-select cannot be selected (not

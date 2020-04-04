@@ -1,4 +1,25 @@
-# Ionic PWA Toolkit
+# Ionic Input Component Demo
+<p>
+  Ionic input components demo for a
+  <a href="https://github.com/ionic-team/ionic/issues/20957">
+    github issue
+  </a>
+</p>
+
+## The Problem
+<p>
+  When using <code>@ionic/core@^5.0.6</code> and
+  <code>@stencil/core@~1.8.8</code>,
+  the ion-label doesn't respect the position="stacked" attribute.
+</p>
+<p>
+  Also, the items in the pop up of ion-select cannot be selected (not clickable).
+</p>
+
+## Live Demo
+https://ionic-input-demo.surge.sh/
+
+## Ionic PWA Toolkit
 
 The PWA Toolkit is a starting point for building Progressive Web Apps using Ionic and Stencil.
 This combination of tools gives you the ability to build a fast, efficient PWA out of the box.

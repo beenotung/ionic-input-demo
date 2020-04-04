@@ -13,7 +13,9 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watch",
     "generate": "stencil generate",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"src/**/*.*css\""
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"src/**/*.*css\"",
+    "prepublish": "npm run build",
+    "publish": "surge www https://ionic-input-demo.surge.sh"
   },
   "devDependencies": {
     "@ionic/core": "^5.0.6",

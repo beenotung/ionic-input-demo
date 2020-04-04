@@ -25,10 +25,42 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png">
   <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
   <link rel="manifest" href="/manifest.json">
+  <style>
+    body {
+      display: initial !important;
+    }
+    .noscript {
+      border: 1px red solid;
+    }
+    .banner {
+      padding: 1em;
+      margin: 1em;
+      display: inline-block;
+    }
+  </style>
+  <noscript>
+    <style>
+      .script {
+        display: none;
+      }
+    </style>
+  </noscript>
 </head>
 
 <body>
 
+  <noscript>
+    <p class="noscript banner">
+      <b>
+        Javascript
+        is disabled
+      </b>
+      but it's required for this demo.
+    </p>
+  </noscript>
+  <p class="banner script">
+    Loading...
+  </p>
   <app-root></app-root>
 
 </body>
